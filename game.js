@@ -29,12 +29,14 @@ function nextSequence() {
     randomChosenColour = buttonColours[randomNumber];
     gamePattern.push(randomChosenColour);
     setTimeout(function(){
-        $("#"+randomChosenColour).fadeOut(100).fadeIn(100);
-        playSound(randomChosenColour);
         level++
         $("#level-title").text("Level "+level);
         $("#startButton").hide()
     },200); 
+    setTimeout(function(){
+    $("#"+randomChosenColour).fadeOut(100).fadeIn(100);
+        playSound(randomChosenColour);
+    },500);
 }
 
 function playSound(name) {
