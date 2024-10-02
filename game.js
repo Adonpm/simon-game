@@ -16,6 +16,7 @@ $(".btn").on("click", function(event) {
 })
 
 $("#startButton").on("click", function() {
+    $("#startButton").addClass("active");
     if (gameOn === false) {
         nextSequence();
         gameOn = true;
