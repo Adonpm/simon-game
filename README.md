@@ -1,4 +1,4 @@
-Project Overview
+# Project Overview
 Simon Game is a classic memory-based game built using HTML, CSS, JavaScript, and jQuery. Players are tasked with remembering and repeating increasingly complex sequences of colors and sounds as they progress through the game. The game provides a fun and interactive way to test and improve memory retention, with a retro design inspired by the original Simon electronic game from the late 1970s.
 
 Features
